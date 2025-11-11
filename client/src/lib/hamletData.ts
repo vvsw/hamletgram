@@ -88,25 +88,25 @@ export const posts: Post[] = [
     id: "1",
     characterId: "hamlet",
     content:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles...",
+      "I swear I loved Ophelia more than anybody did.",
     timestamp: "3h",
-    likes: 23,
+    likes: 7,
     replies: 2,
   },
   {
     id: "2",
     characterId: "ophelia",
     content:
-      "There's rosemary, that's for remembrance; pray you, love, remember. And there is pansies, that's for thoughts.",
+      "Rosemary for rememberance, and theres pansies for thoughts. Maybe I should just let it all go.",
     timestamp: "2h",
-    likes: 18,
+    likes: 2,
     replies: 1,
   },
   {
     id: "3",
     characterId: "claudius",
     content:
-      "The coronation ceremony was a magnificent event. Grateful to serve Denmark as your King. Long live Denmark! 👑",
+      "I applaud our performers but unfortunately I cannot allow any more plays depicting assassinations of any member of the royal family.",
     timestamp: "5h",
     likes: 25,
     replies: 2,
@@ -114,7 +114,7 @@ export const posts: Post[] = [
   {
     id: "4",
     characterId: "hamlet",
-    content: "Seems, madam? Nay, it is. I know not 'seems.'",
+    content: "This play was good but I hope nobody is going around the palace putting poison in peoples' ears while they sleep 😅",
     timestamp: "5h",
     likes: 15,
     replies: 1,
@@ -134,7 +134,7 @@ export const posts: Post[] = [
     content:
       "Claudius don't you agree I'm the funniest and smartest in Denmark 🤣",
     timestamp: "5h",
-    likes: 19,
+    likes: 1,
     replies: 1,
   },
   {
@@ -201,15 +201,15 @@ export const comments: Comment[] = [
   {
     id: "c1",
     postId: "1",
-    characterId: "horatio",
-    content: "My lord, these are profound thoughts indeed.",
+    characterId: "laertes",
+    content: "Why are we just lying now. You know what since you're so eager to prove me wrong let's have a sword fight.",
     timestamp: "2h",
   },
   {
     id: "c2",
     postId: "1",
-    characterId: "ophelia",
-    content: "Such melancholy weighs upon your words...",
+    characterId: "horatio",
+    content: "I'm sure you did bro.",
     timestamp: "2h",
   },
 
@@ -217,8 +217,8 @@ export const comments: Comment[] = [
   {
     id: "c3",
     postId: "2",
-    characterId: "hamlet",
-    content: "Sweet Ophelia, your words are as flowers to my soul.",
+    characterId: "gertrude",
+    content: "I don't know why you're giving us flowers but thanks, Horatio go watch her in case something happens.",
     timestamp: "2h",
   },
 
@@ -226,15 +226,15 @@ export const comments: Comment[] = [
   {
     id: "c4",
     postId: "3",
-    characterId: "polonius",
-    content: "Long live the King! May Denmark prosper under your reign.",
+    characterId: "hamlet",
+    content: "Well, well, well...",
     timestamp: "4h",
   },
   {
     id: "c5",
     postId: "3",
-    characterId: "hamlet",
-    content: "Indeed, uncle. Long live the King.",
+    characterId: "ghost",
+    content: "Pfft.",
     timestamp: "4h",
   },
 
@@ -242,8 +242,8 @@ export const comments: Comment[] = [
   {
     id: "c6",
     postId: "4",
-    characterId: "gertrude",
-    content: "My dear son, I wish you would find peace.",
+    characterId: "claudius",
+    content: "Oh won't you just shut up. You know what, I might as well just send you off somewhere in Europe so you can stop being a mouthful.",
     timestamp: "5h",
   },
 
